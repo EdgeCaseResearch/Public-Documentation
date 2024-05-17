@@ -1,0 +1,901 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<goal_structure name="OASCF">
+  <goal>
+    <name>G1</name>
+    <node_id>3091646309625530412</node_id>
+    <description>Our autonomous driver is safe enough to deploy 
+in the considered operational design domain</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G2.1</name>
+    <node_id>3091646309625530434</node_id>
+    <description>Our organization is trustworthy</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str1</name>
+    <node_id>3091646309625530575</node_id>
+    <description>Argument based on Positive Trust Balance</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str2.1</name>
+    <node_id>3091646309625530847</node_id>
+    <description>We have a track record of a strong safety 
+culture, management, and processes</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G3.1.1</name>
+    <node_id>3091646309625531000</node_id>
+    <description>We define how safe is safe enough 
+in alignment with societal expectations</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G3.1.2</name>
+    <node_id>3091646309625531033</node_id>
+    <description>We do not deploy the system before 
+demonstrating that it is "safe enough"</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G3.1.3</name>
+    <node_id>3091646309625531084</node_id>
+    <description>We continuously improve the processes 
+adopted during the system lifecycle 
+based on feedback from stakeholders</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G3.1.4</name>
+    <node_id>3091646309625531140</node_id>
+    <description>Our team is empowered to pause deployment 
+if safety risks are discovered</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str3.1.1</name>
+    <node_id>3091646309625531594</node_id>
+    <description>We follow ethical best practices, 
+safety standards, and regulations</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str3.1.2</name>
+    <node_id>3091646309625531639</node_id>
+    <description>Our SMS follows FAA best practices</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str3.1.3</name>
+    <node_id>3091646309625531710</node_id>
+    <description>We follow best practices 
+from the FAA on issue reporting</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str3.1.4</name>
+    <node_id>3091646309625531786</node_id>
+    <description>Our SPP follows FAA best practices</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G4.1.1</name>
+    <node_id>3091646309625531867</node_id>
+    <description>We define Risk Acceptance Criteria (RAC) 
+based on ethical best practices, 
+safety standards, and regulations</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G4.1.2</name>
+    <node_id>3091646309625531953</node_id>
+    <description>Our SMS ensures that RAC are met
+before deploying autonomy</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G4.1.3</name>
+    <node_id>3091646309625532044</node_id>
+    <description>Our Safety Program Plans (SPP) includes  
+implementing feedback from stakeholders and 
+sharing lessons learned with the public sector.</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G4.1.4</name>
+    <node_id>3091646309625532140</node_id>
+    <description>We deliver incident reports and 
+SPI statistics to the relevant policymakers</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G2.2</name>
+    <node_id>3091646309625533326</node_id>
+    <description>We sufficiently mitigated the risks 
+posed by our autonomous driver</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str2.2</name>
+    <node_id>3091646309625533539</node_id>
+    <description>Our SMS follows best practices 
+for system safety engineering</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G3.2.1</name>
+    <node_id>3091646309625533740</node_id>
+    <description>We accurately defined the autonomous 
+driver and its intended uses</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.2.1</name>
+    <node_id>3091646309625533815</node_id>
+    <description>We defined the system and its interfaces 
+with the environment, the autonomy architecture, 
+the ODD, and the theory of operation</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <strategy>
+    <name>Str3.2.1</name>
+    <node_id>3091646309625534018</node_id>
+    <description>We follow ISO 26262, 
+ISO 26262, and UL 4600</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G3.2.2</name>
+    <node_id>3091646309625534276</node_id>
+    <description>Our Safety Risk Management (SRM) 
+correctly estimated the risk 
+posed by the autonomous driver</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str3.2.2</name>
+    <node_id>3091646309625534471</node_id>
+    <description>Our SRM follows best practices 
+from MIL-STD-882E to analyze risks</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str3.2.3</name>
+    <node_id>3091646309625534558</node_id>
+    <description>Our SRM follows best practices from UL 4600
+to assess risk of autonomy algorithms</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G4.2.6</name>
+    <node_id>3091646309625534879</node_id>
+    <description>We modeled the risk that autonomy 
+algorithms constribute to hazards</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str4.2.6</name>
+    <node_id>3091646309625535065</node_id>
+    <description>Our SRM follows best practices
+to perform SOTIF analysis</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G5.2.5</name>
+    <node_id>3091646309625535161</node_id>
+    <description>Our QFTA conforms with SOTIF</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G4.2.2</name>
+    <node_id>3091646309625535549</node_id>
+    <description>We identified all mishaps 
+that might occur during operation</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.2.3</name>
+    <node_id>3091646309625535651</node_id>
+    <description>We identified all hazards
+that can lead to mishaps</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.2.4</name>
+    <node_id>3091646309625535829</node_id>
+    <description>We identified all causal factors
+that can lead to hazards</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.2.5</name>
+    <node_id>3091646309625536012</node_id>
+    <description>We modeled how the mitigations
+could lead to hazards</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str4.2.2</name>
+    <node_id>3091646309625536200</node_id>
+    <description>Our SRM follows best practices
+from MIL-STD-882E</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str4.2.3</name>
+    <node_id>3091646309625536393</node_id>
+    <description>Our SRM follows best practices from 
+MIL-STD-882E Functional Hazard Analysis (FHA)</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str4.2.4</name>
+    <node_id>3091646309625536591</node_id>
+    <description>Our SRM follows best practices
+from MIL-STD-882E</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str4.2.5</name>
+    <node_id>3091646309625536794</node_id>
+    <description>Our SRM analyzes hazards 
+based on the system design,
+including mitigations</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G5.2.1</name>
+    <node_id>3091646309625537002</node_id>
+    <description>Our Preliminary Hazard Analysis (PHA)
+conforms with MIL-STD-882E</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G5.2.2</name>
+    <node_id>3091646309625537215</node_id>
+    <description>Our FHA conforms with MIL-STD-882E</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G5.2.3</name>
+    <node_id>3091646309625537433</node_id>
+    <description>Our System Hazard Analysis (SHA) and
+Subsystem Hazard Analysis (SSHA)
+conform with MIL-STD-882E</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G5.2.4</name>
+    <node_id>3091646309625537656</node_id>
+    <description>Our Safety Verification activities
+conform with MIL-STD-882E and UL 4600</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G3.2.3</name>
+    <node_id>3091646309625538786</node_id>
+    <description>Our SRM determined that all risks
+have been mitigated to satisfy RAC</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str3.2.3</name>
+    <node_id>3091646309625538924</node_id>
+    <description>Our SRM follows best practices 
+from UL 4600 to mitigate risks</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G4.2.7</name>
+    <node_id>3091646309625539186</node_id>
+    <description>We specified mitigations
+for each identified risk</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.2.8</name>
+    <node_id>3091646309625539453</node_id>
+    <description>We implemented the specified mitigations
+with a suitable Level of Rigour (LoR)</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.2.9</name>
+    <node_id>3091646309625539725</node_id>
+    <description>We verified that we implemented
+the specified mitigations right</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.2.10</name>
+    <node_id>3091646309625540002</node_id>
+    <description>We validated that we implemented 
+the right mitigations</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str4.2.7</name>
+    <node_id>3091646309625540284</node_id>
+    <description>Our SRM follows best practices
+from MIL-STD-882E</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str4.2.8</name>
+    <node_id>3091646309625540571</node_id>
+    <description>Our SRM follows best practices
+from MIL-STD-882E</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str4.2.9</name>
+    <node_id>3091646309625540863</node_id>
+    <description>Our SRM follows best practices 
+from MIL-STD-882E, UL 4600, 
+ISO-26262, and ISO-21448</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str4.2.10</name>
+    <node_id>3091646309625541310</node_id>
+    <description>Our SRM follows best practices
+from MIL-STD-882E, UL 4600,
+ISO-26262, and ISO-21448</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G5.2.6</name>
+    <node_id>3091646309625541475</node_id>
+    <description>Our Safety Requirements and Hazard Analysis
+conforms with MIL-STD-882E</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G5.2.7</name>
+    <node_id>3091646309625541782</node_id>
+    <description>We conformed with MIL-STD-882E 
+LoR requirements</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G5.2.8</name>
+    <node_id>3091646309625542094</node_id>
+    <description>Our Safety Verification activities
+conform with MIL-STD-882E,
+ISO-26262, and ISO-21448</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G5.2.9</name>
+    <node_id>3091646309625542411</node_id>
+    <description>Our Safety Validation activities
+conform with MIL-STD-882E, UL 4600,
+ISO-26262, and ISO-21448</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G3.3.1</name>
+    <node_id>3091646309625544054</node_id>
+    <description>Our Safety Assurance (SA) identifies new risks
+from edge cases that occur in operation</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str2.3</name>
+    <node_id>3091646309625544234</node_id>
+    <description>Our SMS follows best practices
+for system safety engineering</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G2.3</name>
+    <node_id>3091646309625544582</node_id>
+    <description>We are continuously mitigating 
+risks of "unknown unknowns" 
+posed by the autonomous driver</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.3.4</name>
+    <node_id>3091646309625544935</node_id>
+    <description>We ground the fleet if edge cases
+occur too frequently in operation</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.3.5</name>
+    <node_id>3091646309625545293</node_id>
+    <description>We ground the fleet if hazards 
+occur too frequently in operation</description>
+    <attributes></attributes>
+  </goal>
+  <goal>
+    <name>G4.3.6</name>
+    <node_id>3091646309625545656</node_id>
+    <description>We field mitigations for 
+new risks identified in operation</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str3.3.2</name>
+    <node_id>3091646309625546024</node_id>
+    <description>Our SA follows best practices
+from FAA and UL 4600</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str4.3.4</name>
+    <node_id>3091646309625546397</node_id>
+    <description>We follow statistical "SPI Bootstrapping"
+methods to limit the deployment scale</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str4.3.5</name>
+    <node_id>3091646309625546775</node_id>
+    <description>Our SA follows best 
+practices from the FAA</description>
+    <attributes></attributes>
+  </strategy>
+  <strategy>
+    <name>Str4.3.6</name>
+    <node_id>3091646309625547158</node_id>
+    <description>Our SRM follows best 
+practices from MIL-STD-882E</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G4.3.1</name>
+    <node_id>3091646309625547546</node_id>
+    <description>We monitor SPIs
+to detect edge cases</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G5.3.2</name>
+    <node_id>3091646309625547939</node_id>
+    <description>We ground the fleet if SPI violations
+are more frequent than specified in RAC</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G5.3.3</name>
+    <node_id>3091646309625548337</node_id>
+    <description>We ground the fleet if 
+hazards occur more frequently
+than specified in RAC</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G5.3.4</name>
+    <node_id>3091646309625548740</node_id>
+    <description>We iterate SRM to mitigate
+new risks identified in operation</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G4.3.2</name>
+    <node_id>3091646309625550819</node_id>
+    <description>We update our hazard analyses
+when SPI violations are found</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <goal>
+    <name>G4.3.3</name>
+    <node_id>3091646309625551444</node_id>
+    <description>We limit deployment scale based on 
+confidence in our risk estimate</description>
+    <attributes></attributes>
+  </goal>
+  <strategy>
+    <name>Str4.3.3</name>
+    <node_id>3091646309625551669</node_id>
+    <description>We follow statistical "SPI Bootstrapping"
+methods to limit the deployment scale</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G5.3.1</name>
+    <node_id>3091646309625552328</node_id>
+    <description>Our deployment scale 
+is limited to satisfy RAC</description>
+    <attributes></attributes>
+    <undeveloped>true</undeveloped>
+  </goal>
+  <strategy>
+    <name>Str3.3.2</name>
+    <node_id>3091646309625552943</node_id>
+    <description>Our SA follows best practices
+from FAA and UL 4600</description>
+    <attributes></attributes>
+  </strategy>
+  <goal>
+    <name>G3.3.2</name>
+    <node_id>3091646309625553177</node_id>
+    <description>Our SA mitigates risks found
+before they lead to mishaps</description>
+    <attributes></attributes>
+  </goal>
+  <supported_by>
+    <source_node_id>3091646309625530412</source_node_id>
+    <target_node_id>3091646309625530575</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625530575</source_node_id>
+    <target_node_id>3091646309625530434</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625530434</source_node_id>
+    <target_node_id>3091646309625530847</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625530847</source_node_id>
+    <target_node_id>3091646309625531000</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625530847</source_node_id>
+    <target_node_id>3091646309625531033</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625530847</source_node_id>
+    <target_node_id>3091646309625531084</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625530847</source_node_id>
+    <target_node_id>3091646309625531140</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625531000</source_node_id>
+    <target_node_id>3091646309625531594</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625531594</source_node_id>
+    <target_node_id>3091646309625531867</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625531033</source_node_id>
+    <target_node_id>3091646309625531639</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625531639</source_node_id>
+    <target_node_id>3091646309625531953</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625531084</source_node_id>
+    <target_node_id>3091646309625531710</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625531710</source_node_id>
+    <target_node_id>3091646309625532044</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625531140</source_node_id>
+    <target_node_id>3091646309625531786</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625531786</source_node_id>
+    <target_node_id>3091646309625532140</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625533326</source_node_id>
+    <target_node_id>3091646309625533539</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625530575</source_node_id>
+    <target_node_id>3091646309625533326</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625533539</source_node_id>
+    <target_node_id>3091646309625533740</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625533740</source_node_id>
+    <target_node_id>3091646309625534018</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625534018</source_node_id>
+    <target_node_id>3091646309625533815</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625533539</source_node_id>
+    <target_node_id>3091646309625534276</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625534276</source_node_id>
+    <target_node_id>3091646309625534471</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625534276</source_node_id>
+    <target_node_id>3091646309625534558</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625534558</source_node_id>
+    <target_node_id>3091646309625534879</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625534879</source_node_id>
+    <target_node_id>3091646309625535065</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625535065</source_node_id>
+    <target_node_id>3091646309625535161</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625534471</source_node_id>
+    <target_node_id>3091646309625535549</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625535549</source_node_id>
+    <target_node_id>3091646309625536200</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625536200</source_node_id>
+    <target_node_id>3091646309625537002</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625534471</source_node_id>
+    <target_node_id>3091646309625535651</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625535651</source_node_id>
+    <target_node_id>3091646309625536393</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625536393</source_node_id>
+    <target_node_id>3091646309625537215</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625534471</source_node_id>
+    <target_node_id>3091646309625535829</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625534471</source_node_id>
+    <target_node_id>3091646309625536012</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625535829</source_node_id>
+    <target_node_id>3091646309625536591</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625536012</source_node_id>
+    <target_node_id>3091646309625536794</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625536591</source_node_id>
+    <target_node_id>3091646309625537433</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625536794</source_node_id>
+    <target_node_id>3091646309625537656</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625538786</source_node_id>
+    <target_node_id>3091646309625538924</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625538924</source_node_id>
+    <target_node_id>3091646309625539186</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625538924</source_node_id>
+    <target_node_id>3091646309625539453</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625538924</source_node_id>
+    <target_node_id>3091646309625539725</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625538924</source_node_id>
+    <target_node_id>3091646309625540002</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625539186</source_node_id>
+    <target_node_id>3091646309625540284</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625539453</source_node_id>
+    <target_node_id>3091646309625540571</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625539725</source_node_id>
+    <target_node_id>3091646309625540863</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625540002</source_node_id>
+    <target_node_id>3091646309625541310</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625540284</source_node_id>
+    <target_node_id>3091646309625541475</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625540571</source_node_id>
+    <target_node_id>3091646309625541782</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625540863</source_node_id>
+    <target_node_id>3091646309625542094</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625541310</source_node_id>
+    <target_node_id>3091646309625542411</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625533539</source_node_id>
+    <target_node_id>3091646309625538786</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625530575</source_node_id>
+    <target_node_id>3091646309625544582</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625544582</source_node_id>
+    <target_node_id>3091646309625544234</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625544234</source_node_id>
+    <target_node_id>3091646309625544054</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625544054</source_node_id>
+    <target_node_id>3091646309625546024</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625546024</source_node_id>
+    <target_node_id>3091646309625547546</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625544935</source_node_id>
+    <target_node_id>3091646309625546397</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625545293</source_node_id>
+    <target_node_id>3091646309625546775</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625545656</source_node_id>
+    <target_node_id>3091646309625547158</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625546397</source_node_id>
+    <target_node_id>3091646309625547939</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625546775</source_node_id>
+    <target_node_id>3091646309625548337</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625547158</source_node_id>
+    <target_node_id>3091646309625548740</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625546024</source_node_id>
+    <target_node_id>3091646309625550819</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625551444</source_node_id>
+    <target_node_id>3091646309625551669</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625551669</source_node_id>
+    <target_node_id>3091646309625552328</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625544234</source_node_id>
+    <target_node_id>3091646309625553177</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625553177</source_node_id>
+    <target_node_id>3091646309625552943</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625552943</source_node_id>
+    <target_node_id>3091646309625551444</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625552943</source_node_id>
+    <target_node_id>3091646309625544935</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625552943</source_node_id>
+    <target_node_id>3091646309625545293</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+  <supported_by>
+    <source_node_id>3091646309625552943</source_node_id>
+    <target_node_id>3091646309625545656</target_node_id>
+    <attributes></attributes>
+  </supported_by>
+</goal_structure>
